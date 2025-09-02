@@ -1,0 +1,18 @@
+[Unit]
+Description=Process Monitoring Service
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/monitoring.sh
+User=root
+Group=root
+
+# Настройки безопасности
+NoNewPrivileges=yes
+ProtectSystem=strict
+ProtectHome=read-only
+PrivateTmp=yes
+
+[Install]
+WantedBy=multi-user.target

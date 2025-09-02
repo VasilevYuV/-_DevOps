@@ -1,0 +1,27 @@
+# Проверка статуса таймера
+# Check of timer status
+systemctl status monitoring.timer
+
+# Просмотр журнала выполнения
+# Viewing of execution journal
+journalctl -u monitoring.service
+
+# Проверка лога мониторинга
+# Check of monitoring log
+tail -f /var/log/monitoring.log
+
+# Запуск сервиса вручную для тестирования
+# Manual start of service for testing
+systemctl start monitoring.service
+
+# Просмотр списка таймеров
+# Viewing of timers list
+systemctl list-timers
+
+# Проверка конфигурации таймера
+# Check of timer configuration
+systemctl cat monitoring.timer
+
+# Проверка логов systemd
+# Check of systemd logs
+journalctl -xe
