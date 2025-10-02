@@ -30,9 +30,9 @@ if (window.location.hash === '#en') {
 
 ## Содержание / Table of Contents
 
-- [Обзор / Overview](#обзор--overview)
+> - [Обзор / Overview](#обзор--overview)
 - [Функциональность и Технологии / Features & Tech Stack](#функциональность-и-технологии--features--tech-stack)
-- [Установка / Installation](#установка--installation)
+ - [Установка / Installation](#установка--installation)
 - [Использование / Usage](#использование--usage)
 - [Участие в разработке / Contributing](#участие-в-разработке--contributing)
 - [Лицензия / License](#лицензия--license)
@@ -48,3 +48,4 @@ if (window.location.hash === '#en') {
 <div lang="en" style="display: none;">
 This approach enables Avito to dynamically control screen layouts and content directly from the server, without requiring app updates. It allows for instant A/B testing, personalized user experiences, and rapid deployment of new features or promotional banners. Ultimately, this creates a more agile and data-driven platform that can adapt in real-time to user behavior and market trends.
 </div>
+
