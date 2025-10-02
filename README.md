@@ -7,7 +7,6 @@
     <option value="en">🇬🇧 English</option>
   </select>
 </div>
-
 <script>
 function switchLanguage(lang) {
   if (lang === 'en') {
@@ -48,4 +47,5 @@ if (window.location.hash === '#en') {
 <div lang="en" style="display: none;">
 This approach enables Avito to dynamically control screen layouts and content directly from the server, without requiring app updates. It allows for instant A/B testing, personalized user experiences, and rapid deployment of new features or promotional banners. Ultimately, this creates a more agile and data-driven platform that can adapt in real-time to user behavior and market trends.
 </div>
+
 
